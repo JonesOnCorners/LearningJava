@@ -12,6 +12,7 @@ public class SamBranan211118 {
 		System.out.println(a1 instanceof Object[]);
 		System.out.println(a2 instanceof Object[]);
 		System.out.println(a3 instanceof Object[]);
+		System.out.println("Just for testing");
 		
 
 	}
