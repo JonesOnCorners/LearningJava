@@ -81,18 +81,24 @@ button:hover {
 <body>
  <form action="action_page.php" style="border:1px solid #ccc">
   <div class="container">
-    <h1>Sign Up</h1>
+    <h1>Local Bank Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <label for="psw"><b>Surname</b></label>
+    <input type="text" placeholder="Enter Surname" name="surname" required>
+    
+    <label for="psw"><b>Age</b></label>
+    <input type="text" placeholder="Enter age" name="age" required>
+    
+    <label for="psw"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="address" required>
+    
+    <label for="psw"><b>Mobile Number</b></label>
+    <input type="text" placeholder="Enter Mobile Number" name="mobilenumber" required>
 
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
